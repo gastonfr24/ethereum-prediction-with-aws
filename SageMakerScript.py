@@ -88,8 +88,8 @@ def json_to_aws(day_predictions):
         
         # Crea una sesión de AWS con las credenciales
         session = boto3.Session(
-            aws_access_key_id='AKIA6RESZTAZXQQBLU2D',
-            aws_secret_access_key='HoxLz9mEf0817W9KQWXjAgbY7aStmqjpjz94+P1R'
+            aws_access_key_id='Your Acces Key',
+            aws_secret_access_key='Your Secret Key'
         )
         
         # Crea un objeto S3
